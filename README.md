@@ -19,6 +19,6 @@ see line 40 of https://github.com/DengPingFan/Polyp-PVT/blob/main/Test.py
 
 see line 40 of https://github.com/baiboat/HSNet/blob/main/Test.py
 
-you could comment that normalization also in the training set, e.g. if you use images without foreground pixels.
+you should comment that normalization also in the training set, e.g. if you use images without foreground pixels.
 
 for extracting the set of images for each test image using HSN and PVT (instead of the single image obtained summing the output of the set of sigmoid function) see test_fus.py In that file: model = HSNet() for using it with PVT you need to recall the PVTmodel.
